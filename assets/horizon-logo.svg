@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="300" height="80" role="img" aria-label="Horizon Tech Marketing">
+  <defs>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFB347"/>
+      <stop offset="1" stop-color="#E76F00"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1E5BFF"/>
+      <stop offset="1" stop-color="#2FA8FF"/>
+    </linearGradient>
+    <clipPath id="orb"><circle cx="40" cy="40" r="34"/></clipPath>
+  </defs>
+  <!-- emblem -->
+  <g clip-path="url(#orb)">
+    <rect x="0" y="0" width="80" height="80" fill="#0F1B3D"/>
+    <circle cx="40" cy="46" r="20" fill="url(#sun)"/>
+    <rect x="0" y="46" width="80" height="40" fill="#0F1B3D"/>
+    <rect x="6" y="48" width="68" height="4" rx="2" fill="url(#sea)"/>
+    <rect x="14" y="56" width="52" height="4" rx="2" fill="url(#sea)" opacity=".8"/>
+    <rect x="22" y="64" width="36" height="4" rx="2" fill="url(#sea)" opacity=".6"/>
+  </g>
+  <circle cx="40" cy="40" r="34" fill="none" stroke="url(#sea)" stroke-width="3"/>
+  <!-- tech nodes -->
+  <g stroke="#FFB347" stroke-width="2" fill="#FFB347">
+    <line x1="40" y1="12" x2="40" y2="22" />
+    <line x1="19" y1="20" x2="25" y2="27"/>
+    <line x1="61" y1="20" x2="55" y2="27"/>
+    <circle cx="40" cy="11" r="3"/>
+    <circle cx="18" cy="19" r="3"/>
+    <circle cx="62" cy="19" r="3"/>
+  </g>
+  <!-- wordmark -->
+  <text x="94" y="45" font-family="'Outfit','Poppins','Helvetica Neue',Arial,sans-serif" font-weight="800" font-size="38" textLength="196" lengthAdjust="spacingAndGlyphs" fill="#1E5BFF">HORIZON</text>
+  <text x="95" y="68" font-family="'Outfit','Poppins','Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="17" textLength="195" lengthAdjust="spacing" fill="#E76F00">TECH MARKETING</text>
+</svg>
